@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: swagger-demo
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: swagger-demo
+
+  template:
+    metadata:
+      labels:
+        app: swagger-demo
+
+    spec:
+      containers:
+        - name: swagger-demo
+          image: siddharthchordiya/swagger-demo:latest
+          imagePullPolicy: Never   # IMPORTANT for local Docker
+          ports:
+            - containerPort: 8080
