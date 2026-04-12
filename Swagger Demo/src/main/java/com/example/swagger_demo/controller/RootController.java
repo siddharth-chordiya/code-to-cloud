@@ -15,11 +15,11 @@ public class RootController {
         return "Service is UP";
     }
 
-    @GetMapping("test")
-    public String test() {
+    @GetMapping("root")
+    public String root() {
 
-        System.out.println("log : Test log");
-        return "Service is UP";
+        System.out.println("Inside root()");
+        return "Hello from root";
     }
 
 }
