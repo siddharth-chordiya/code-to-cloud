@@ -17,8 +17,9 @@ echo "🚀 Starting auto deployment... $DEPLOYMENT"
 echo "📥 Pulling latest image -> $IMAGE from Docker Hub..."
 docker pull $IMAGE
   
-  # Step 2: Restart Kubernetes deployment
-echo "🔄 Restarting Kubernetes deployment..."
+  # Step 2: Create/Restart new kubernetes deployment
+echo "🔄 Starting Kubernetes deployment..."
+kubectl apply -f k8s/
 kubectl rollout restart deployment $DEPLOYMENT
   
   # Step 3: Wait for rollout to complete
