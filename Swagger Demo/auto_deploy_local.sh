@@ -24,7 +24,7 @@ kubectl rollout restart deployment $DEPLOYMENT
   # Step 3: Wait for rollout to complete
 echo "⏳ Waiting for rollout to complete..."
 kubectl rollout status deployment $DEPLOYMENT
-echo "Rollout to completed!!"
+echo "Rollout completed!!"
 
   # Step 4: Clean only dangling (<none>) images
 echo "🧹 Cleaning dangling (<none>) Docker images from Docker desktop..."
