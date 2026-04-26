@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: swagger-demo
-          image: siddharthchordiya/swagger-demo:latest
+          image: {{YOUR_DOCKER_USERNAME}}/swagger-demo:latest
           imagePullPolicy: Always   # IMPORTANT for local Docker
           ports:
             - containerPort: 8080

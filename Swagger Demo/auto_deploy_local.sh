@@ -8,7 +8,7 @@
 set -e
 
 ## variables
-IMAGE="siddharthchordiya/swagger-demo:latest"
+IMAGE="{{YOUR_DOCKER_USERNAME}}/swagger-demo:latest"
 DEPLOYMENT="swagger-demo"
 
 echo "🚀 Starting auto deployment... $DEPLOYMENT"
