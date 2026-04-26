@@ -1,6 +1,6 @@
 # Swagger Demo — Spring Boot
 
-A lightweight Spring Boot application that demonstrates API documentation using **SpringDoc OpenAPI (Swagger UI)**. It showcases how to annotate RESTful endpoints, and expose an interactive API explorer — all containerized and deployable via Docker + Kubernetes with a full CI/CD pipeline.
+A lightweight Spring Boot application that demonstrates API documentation using **SpringDoc OpenAPI (Swagger UI)**. It showcases how to annotate RESTful endpoints, and expose an interactive API explorer — all containerized and deployable via Docker + Kubernetes with a full CI/CD pipeline using GitHub Actions.
 
 ---
 
@@ -10,10 +10,10 @@ A lightweight Spring Boot application that demonstrates API documentation using 
 |---|---|
 | Language | Java 17 |
 | Framework | Spring Boot 3.4.4 |
-| API Documentation | SpringDoc OpenAPI 2.7.0 (Swagger UI) |
-| Build Tool | Maven (spring-boot-maven-plugin) |
+| API Documentation | SpringDoc OpenAPI 2.7.0 |
+| Build Tool | Maven |
 | Containerization | Docker |
-| Orchestration | Kubernetes (K8s) |
+| Orchestration | Kubernetes |
 | CI/CD | GitHub Actions |
 
 ---
