@@ -6,9 +6,9 @@ A personal collection of projects built with the help of AI — spanning backend
 
 ## Projects
 
-| Project                        | Description | Stack |
-|--------------------------------|---|---|
-| [Swagger Demo](./Swagger Demo) | Spring Boot REST API with Swagger/OpenAPI documentation, containerized and deployed via Docker + Kubernetes | Java, Spring Boot, Docker, K8s |
+| Project                          | Description | Stack |
+|----------------------------------|---|---|
+| [Swagger Demo](./Swagger%20Demo) | Spring Boot REST API with Swagger/OpenAPI documentation, containerized and deployed via Docker + Kubernetes | Java, Spring Boot, Docker, K8s |
 
 > More projects coming soon.
 
