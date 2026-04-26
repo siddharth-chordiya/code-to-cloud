@@ -8,7 +8,7 @@ A personal collection of projects built with the help of AI — spanning backend
 
 | Project                          | Description | Stack |
 |----------------------------------|---|---|
-| [Swagger Demo](./Swagger%20Demo) | CI/CD pipeline using GitHub Actions — builds a Docker image of a Spring Boot App, pushes it to Docker Hub, and deploys locally by pulling the image and applying Kubernetes manifests via auto_deploy_local.sh |
+| [Swagger Demo](./Swagger%20Demo) | CI/CD pipeline using GitHub Actions — builds a Docker image of a Spring Boot App, pushes it to Docker Hub, and deploys locally by pulling the image and applying Kubernetes manifests |
 
 > More projects coming soon.
 
