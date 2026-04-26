@@ -21,7 +21,7 @@ A lightweight Spring Boot application that demonstrates API documentation using 
 ## Project Structure
 
 ```
-code-to-claude/                     # Root repository
+code-to-cloud/                     # Root repository
 ├── .github/
 │   └── workflows/                  # GitHub Actions CI/CD pipeline
 ├── Swagger Demo/                   # Spring Boot application
@@ -50,14 +50,14 @@ code-to-claude/                     # Root repository
 0. Replace {{DOCKER_USERNAME}} in below files with your actual docker username
    - auto_deploy_local.sh
    - swagger-demo-deployment.yml
-   
+
 1. **Enable Kubernetes** in Docker Desktop → Settings → Kubernetes → Enable Kubernetes.
 
 2. **Clone the repository**
 
    ```bash
    git clone {github_repo_url}
-   cd code-to-claude/Swagger Demo
+   cd code-to-cloud/Swagger Demo
    ```
 
 3. **Apply Kubernetes manifests**
