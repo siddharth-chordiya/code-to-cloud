@@ -8,7 +8,8 @@ A personal collection of projects built with the help of AI — spanning backend
 
 | Project                          | Description | Stack |
 |----------------------------------|---|---|
-| [Swagger Demo](./Swagger%20Demo) | CI/CD pipeline using GitHub Actions — builds a Docker image of a Spring Boot App, pushes it to Docker Hub, and deploys locally by pulling the image and applying Kubernetes manifests |
+| [Swagger Demo](./Swagger%20Demo) | CI/CD pipeline using GitHub Actions — builds a Docker image of a Spring Boot App, pushes it to Docker Hub, and deploys locally by pulling the image and applying Kubernetes manifests | Spring Boot, Docker, Kubernetes, GitHub Actions |
+| [Hello World Spring AI](./hello-world-spring-ai) | Minimal Spring Boot hello-world API generated with Spring Initializr | Spring Boot, Spring Web, Spring Data JPA, H2, Spring AI |
 
 > More projects coming soon.
 
